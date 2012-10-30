@@ -1,0 +1,23 @@
+doctype 5
+html
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title revRunD
+    != css('bootstrap')
+    != css('main')
+  body
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          a.btn.btn-navbar(data-target=".nav-collapse", data-toggle="collapse")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.brand(href="#") revRunD
+          .container.nav-collapse
+    .container-fluid
+      .row-fluid
+        block content
+    script(src="socket.io/socket.io.js", type="text/javascript")
+    != js('main')

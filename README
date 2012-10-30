@@ -1,0 +1,13 @@
+* file streaming
+* file interval
+* file stats
+  - last modified
+  - size
+* start processes with forever
+* process intervals
+* process stats
+  - mem total
+  - mem %
+  - cpu %
+  - uptime
+* d3 graphs w/crossfilter

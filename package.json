@@ -1,0 +1,14 @@
+{
+    "name": "revRunD"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "connect-assets": ""
+    , "forever": ""
+    , "socket.io": ""
+    , "socket.io-client": ""
+    , "express": ""
+    , "jade": ""
+    , "underscore": ""
+  }
+}
